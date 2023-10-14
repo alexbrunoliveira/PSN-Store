@@ -1,0 +1,76 @@
+.game-details__container {
+	width: 100%;
+	min-height: 80vh;
+	position: relative;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.game-details__container a {
+	text-decoration: none;
+	position: absolute;
+	left: 50px;
+	top: 200px;
+	z-index: 99;
+}
+
+.game-details__container a span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #666666;
+	font-size: 3rem;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background-color: #ececece0;
+	transition: all .5s;
+}
+
+.game-details__container a span:hover {
+	color: #ececece0;
+	background-color: #666666;
+}
+
+.game-details__container .game-details__img {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	height: 77vh;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+  object-position: bottom;
+}
+
+.game-details__container .game-cards__container {
+	position: absolute;
+	left: 50px;
+	top: 350px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.info-game___details {
+	width: 100%;
+	margin: 150px auto;
+}
+ .info-game___details h3 {
+	text-align: center;
+    font-size: 3rem;
+    font-family: Calibri;
+    font-weight: 300;
+    margin: 0px 50px;
+    padding: 102px;
+ }
+
+ @media (max-width: 768px) {
+	.info-game___details > h3{
+		font-size: 2rem;
+		margin: 2px 0px;
+	}
+ }

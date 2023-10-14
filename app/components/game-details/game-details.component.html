@@ -1,0 +1,21 @@
+<div class="game-details__container">
+	<a [routerLink]="['/']">
+		<span class="material-symbols-outlined">
+			keyboard_double_arrow_left
+		</span>
+	</a>
+	<div class="game-details__img" style="background-image: url('{{ photo }}');">
+
+	</div>
+	<div class="game-cards__container">
+		<app-game-title-card
+			nameGame="{{ nameGame }}"
+			price="{{ price }}"
+		></app-game-title-card>
+	</div>
+</div>
+<div class="info-game___details">
+	<h3>Informações do jogo e jurídicas</h3>
+	<app-game-info-card infoCard="{{ infoCard }}"></app-game-info-card>
+
+</div>

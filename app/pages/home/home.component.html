@@ -1,0 +1,27 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+<div class="home__container" >
+	<app-card
+		*ngFor="let item of listGames"
+		id="{{ item.id }}"
+		gameCover="{{ item.potho}}"
+		gameLabel="Digital"
+		gameType="DIGITAL | PS4"
+		gamePrice="R$ {{ item.price }}"
+	>
+	</app-card>
+	<!-- <app-card
+		gameCover="../../../assets/bt-4.jpg"
+		gameLabel="Digital"
+		gameType="DIGITAL | PS4"
+		gamePrice="R$ 598,99"
+	>
+	</app-card>
+	<app-card
+		gameCover="../../../assets/bt-5.jpg"
+		gameLabel="Exclusive"
+		gameType="OTARU"
+		gamePrice="R$ 299,65"
+	>
+	</app-card> -->
+</div>

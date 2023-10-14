@@ -1,0 +1,16 @@
+.details__container {
+	width: 100%;
+	margin: auto;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	flex-wrap: wrap;
+	background-color: #000;
+	animation: moveDeCimaParaBaixo 0.2s linear;
+}
+
+@media (max-width: 768px) {
+
+
+}
